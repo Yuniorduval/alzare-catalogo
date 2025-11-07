@@ -2,11 +2,11 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 
 const products = [
-  {id:1, title:'Camiseta ALZARÉ - Negra', price:'RD$ 1,200', tag:'Nuevo', desc:'Camiseta de algodón premium, corte urbano.'},
+  {id:1, title:'Camiseta ALZARE - Negra', price:'RD$ 1,200', tag:'Nuevo', desc:'Camiseta de algodón premium, corte urbano.'},
   {id:2, title:'Chaqueta Gold Trim', price:'RD$ 3,500', tag:'Edición Limitada', desc:'Chaqueta con detalles dorados.'},
   {id:3, title:'Pantalón Cargo', price:'RD$ 2,100', tag:'Hombre', desc:'Cargo cómodo, tela resistente.'},
   {id:4, title:'Vestido Satin', price:'RD$ 2,800', tag:'Mujer', desc:'Vestido elegante con brillo sutil.'},
-  {id:5, title:'Gorra ALZARÉ', price:'RD$ 800', tag:'Accesorio', desc:'Gorra ajustable, logo bordado.'},
+  {id:5, title:'Gorra ALZARE', price:'RD$ 800', tag:'Accesorio', desc:'Gorra ajustable, logo bordado.'},
   {id:6, title:'Sudadera Oversize', price:'RD$ 1,900', tag:'Unisex', desc:'Sudadera con capucha y bolsillo.'},
   {id:7, title:'Parka Negra', price:'RD$ 4,200', tag:'Nuevo', desc:'Parka impermeable con forro térmico.'},
   {id:8, title:'Bolso Crossbody', price:'RD$ 1,650', tag:'Accesorio', desc:'Bolso compacto con estampado interior.'}
@@ -64,7 +64,7 @@ function openModal(p){
 
   // WhatsApp button handler
   document.getElementById('whBtn').addEventListener('click', () => {
-    const phone = '00000000000'; // Reemplaza por tu número sin + ni guiones, formato: countrycode + number
+    const phone = '8492568555'; // Reemplaza por tu número sin + ni guiones, formato: countrycode + number
     const text = encodeURIComponent(`${p.title} - Estoy interesado. ¿Está disponible?`);
     window.open(`https://wa.me/${phone}?text=${text}`, '_blank');
   });
