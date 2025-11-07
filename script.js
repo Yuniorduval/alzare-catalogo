@@ -1,4 +1,4 @@
-// ALZARÉ - script.js
+// ALZARE - script.js
 document.getElementById('year').textContent = new Date().getFullYear();
 
 const products = [
