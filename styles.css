@@ -181,3 +181,27 @@ body{
   .hero h1{ font-size:1.4rem }
   .brand .logo{ font-size:1.1rem }
 }
+
+/* Encabezado con logo */
+.encabezado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #d4af37; /* dorado */
+  padding: 15px;
+  border-bottom: 3px solid #d4af37;
+}
+
+.encabezado .logo {
+  height: 70px;
+  width: auto;
+  margin-right: 15px;
+}
+
+.encabezado .titulo {
+  font-family: 'Arial Black', sans-serif;
+  font-size: 28px;
+  letter-spacing: 3px;
+}
+
