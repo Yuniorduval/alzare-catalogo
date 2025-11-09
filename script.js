@@ -2,7 +2,7 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 
 const products = [
-  {id:1, title:'Camiseta ALZARE - Negra', price:'RD$ 1,200', tag:'Nuevo', desc:'Camiseta de algodón premium, corte urbano.'},
+  {id:1, title:'Camiseta ALZARE Negra', price:'RD$ 1,200', tag:'Nuevo', desc:'Camiseta de algodón premium, corte urbano.'},
   {id:2, title:'Chaqueta Gold Trim', price:'RD$ 3,500', tag:'Edición Limitada', desc:'Chaqueta con detalles dorados.'},
   {id:3, title:'Pantalón Cargo', price:'RD$ 2,100', tag:'Hombre', desc:'Cargo cómodo, tela resistente.'},
   {id:4, title:'Vestido Satin', price:'RD$ 2,800', tag:'Mujer', desc:'Vestido elegante con brillo sutil.'},
