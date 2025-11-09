@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ALZARÉ — Catálogo</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Catálogo visual de ALZARÉ — ropa elegante urbano en negro, blanco y dorado." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div class="logo">ALZARÉ</div>
+      <button id="menuToggle" aria-label="Abrir menú">☰</button>
+    </div>
+    <nav id="mainNav" class="main-nav">
+      <a href="#catalog">Catálogo</a>
+      <a href="#colecciones">Colecciones</a>
+      <a href="#about">Sobre</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Vístete de actitud. Lleva el estilo ALZARÉ.</h1>
+      <a class="btn" href="#catalog">Ver catálogo</a>
+    </section>
+
+    <section id="catalog" class="catalog">
+      <h2>Catálogo</h2>
+      <div class="grid" id="productGrid">
+        <!-- Products inserted by script -->
+      </div>
+    </section>
+
+    <section id="colecciones" class="collections">
+      <h2>Colecciones</h2>
+      <div class="cols">
+        <div class="col">
+          <h3>Urban Style</h3>
+          <p>Negros, cortes modernos y actitud.</p>
+        </div>
+        <div class="col">
+          <h3>Classic Gold</h3>
+          <p>Detalles dorados para destacar.</p>
+        </div>
+        <div class="col">
+          <h3>Sport Line</h3>
+          <p>Comodidad sin perder estilo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>Sobre ALZARÉ</h2>
+      <p>ALZARÉ es más que una marca — es expresión. Diseños que combinan elegancia, fuerza y autenticidad.</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contacto</h2>
+      <p>Síguenos en Instagram: <a href="#" aria-label="Instagram">instagram.com/alzare</a></p>
+      <p>Pide por WhatsApp: <a href="https://wa.me/00000000000" id="whatsappLink">Enviar mensaje</a></p>
+    </section>
+  </main>
+
+  <!-- Product modal -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true">
+      <button id="modalClose" class="modal-close" aria-label="Cerrar">✕</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <a id="whatsFloat" class="whats-float" href="https://wa.me/00000000000" aria-label="Pedir por WhatsApp">💬</a>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> ALZARÉ — Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
