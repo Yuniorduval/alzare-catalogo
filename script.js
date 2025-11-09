@@ -2,14 +2,14 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 
 const products = [
-  {id:1, title:'Camiseta ALZARE Negra', price:'RD$ 1,200', tag:'Nuevo', desc:'Camiseta de algodón premium, corte urbano.'},
+  {id:1, title:'Camiseta ALZARE Negro', price:'RD$ 1,200', tag:'Nuevo', desc:'Camiseta de algodón premium, corte urbano.'},
   {id:2, title:'Camiseta ALZARE Blaco, price:'RD$ 1,200', tag:'Nuevo', desc:'Camiseta de algodón premium, corte urbano.'},
   {id:3, title:'Pantalón Cargo', price:'RD$ 2,100', tag:'Hombre', desc:'Cargo cómodo, tela resistente.'},
   {id:4, title:'Gamuza', price:'RD$ 1,000', tag:'Nuevo', desc:'Material Suave.'},
   {id:5, title:'Gorra ALZARE', price:'RD$ 800', tag:'Accesorio', desc:'Gorra ajustable, logo bordado.'},
   {id:6, title:'Sudadera Oversize', price:'RD$ 1,900', tag:'Unisex', desc:'Sudadera con capucha y bolsillo.'},
   {id:7, title:'Bañadores, price:'RD$ 3,00', tag:'Nuevo', desc:'Dale flow a tu dias de sol.'},
-  {id:8, title:'Pantalon PURPLE', price:'RD$ 1,650', tag:' Urbano', desc:'No es solo prenda, es una desclaracion de estilo .'}
+  {id:8, title:'Pantalon PURPLE', price:'RD$ 1,650', tag:' Urbano', desc:'No es solo prenda, es una desclaracion de estilo.'}
 ];
 
 const productGrid = document.getElementById('productGrid');
