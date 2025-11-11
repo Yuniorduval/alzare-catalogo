@@ -54,7 +54,7 @@ function openModal(p){
         <h2 style="margin-top:0;color:var(--gold)">${p.title}</h2>
         <p style="color:var(--muted)">${p.desc}</p>
         <p style="font-weight:800;margin:12px 0">${p.price}</p>
-        <p><button id="whBtn" class="btn">Pedir por WhatsApp</button></p>
+        <p><button id="whBtn" class="btn"> WhatsApp</button></p>
         <p style="margin-top:10px;color:var(--muted)">Etiqueta: ${p.tag}</p>
       </div>
     </div>
@@ -64,7 +64,7 @@ function openModal(p){
 
   // WhatsApp button handler
   document.getElementById('whBtn').addEventListener('click', () => {
-    const phone = '00000000000'; // Reemplaza por tu número sin + ni guiones, formato: countrycode + number
+    const phone = '8492568555'; // Reemplaza por tu número sin + ni guiones, formato: countrycode + number
     const text = encodeURIComponent(`${p.title} - Estoy interesado. ¿Está disponible?`);
     window.open(`https://wa.me/${phone}?text=${text}`, '_blank');
   });
